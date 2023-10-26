@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header .row{
+    height: 82px;
+}
+#demo{
+    width: 342px;
+    
+}
+h1,h3,h5,h6,h4{
+    margin: 0;
+}
+
+.navi{
+    overflow-y: scroll;
+}
+form{
+    background: gray;
+    
+    position: relative;
+    width: 84%
+}
+input{
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 20px;
+    border: none;
+    padding-left: 64px;
+    
+}
+.search button{
+    position: absolute;
+    top: 0;
+    background: none;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+.others a{
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.others a:hover{
+    color: gold;
+    text-decoration: none;
+    
+}
+
+.profile a:hover{
+    background: gray;
+}
+.part1{
+    
+    background: black;
+}
+.part1 .watch button:hover{
+    cursor: pointer;
+    background: gold;
+}
+.part1 .h3 .button .h1{
+    line-height: 3rem;
+} 
+
+.section1{
+    height: 43vw;
+}
+
+
+.box{
+    width: 27rem;
+    height: 700px;
+    background: black;
+    color: white;
+}
+.card-body{
+    background: black;
+    
+}
+
+#body1{
+    display: flex;
+    flex-direction: row;
+}
+
+#bd{
+    display: flex;
+    flex-direction: row;
+}
+
+
+ .part3{
+    
+    background-color: #0b0b0b;
+} 
+
+
+
+
+                   /* Media Queries */
+
+@media (max-width:750px) {
+    #body1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #bd{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+}
+
+/* @media (max-width:400px) {
+   
+    #body1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #bd{
+        display: flex;
+        flex-direction: column;
+    }
+} */
+
+
+
+
+
+
+
+  
